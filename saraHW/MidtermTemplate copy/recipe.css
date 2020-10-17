@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.recipeSplash h1 {
+	font-size: 30pt;
+	color: #FFAA76;
+	text-shadow: 3px 3px white; 
+	padding-top: 20px;
+	padding-left: 400px;
+}
+
+.recipeRow { 
+	display: grid;
+	grid-template-columns: 1.25fr 1fr;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: white;
+	padding: 50px 0;
+}
+
+.videoRow article{
+	text-align: center;
+	margin-left: 10px;	
+}
+
+.videoRow article iframe{
+	width: 640px;
+	height: 360px;	
+}
+
+.videoRow aside {
+	text-align: left;
+	font-size: 120%;
+	margin: 0 20px; 	
+}
+
+.item1 {grid-area: item1; }
+.item2 {grid-area: item2; }
+.item3 {grid-area: item3; }
+.item4 {grid-area: item4; }
+.item5 {grid-area: item5; }
+
+.bioAreas {
+	display: grid; 
+	grid-template-areas: 
+		'item1 item2 item3'
+		'item1 item4 item5' ;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: #EAD496;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.bioAreas .text {
+	display: grid;
+	align-content: center;
+	text-align: center;
+	font-size: 150%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.bioAreas .profile {
+	padding: 10px;
+	overflow: auto;
+	margin: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+}
+
+
+
+

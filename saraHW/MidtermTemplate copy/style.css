@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-l(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background:#FFF6E4; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+}
+
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+h1,h2,h3,h4 { 
+	font-family: 'Neuton', serif;
+
+}
+
+header, footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 10px;
+}
+
+header h1, footer h1 {
+	font-size: 30pt;
+	color:#AFA842;	
+}
+
+header nav, footer nav {
+	text-align: right;
+	margin-top: 20px;
+}
+
+header nav a {
+	color:white;
+	background-color: #EAD496;
+	padding: 4px;
+	text-decoration: none;
+	font-size: 16pt;	
+}
+
+footer i {
+	color: black;
+	margin-bottom: 20px;
+}
+
+footer nav a {
+	color: #AFA842;
+	padding: 4px;
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+footer nav a:hover {
+	color: ;
+}
+
+header nav a:hover{
+	color:#EAD496;
+	background-color:white;
+}
+
+.splash {
+	dsiplay: grid;
+	grid-template-columns: 1fr;
+	background-image:url("imagesForTemplate/food-2879265_1920.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	text-align: center;
+	padding-top: 5px;
+	padding-left: 70px;
+	padding-right: 80px;
+	padding-bottom: 5px; 
+}
+
+.splash h1{
+	color: black;
+	text-shadow: 2px 2px white;
+	margin-top: 150px;
+	font-size: 30pt;	
+}
+
+/* row with three boxes*/
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid .item {
+	padding: 10px;
+	height: 350px;
+	margin: 5px;
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px #C6DB9F solid;
+	font-size: 1.5em;
+	background-color: white;	
+}
+
+.grid .item i {
+	color: #C6DB9F;
+	padding-top: 30px;
+}
+
+/* row with article and aside */
+
+.grid2 {
+	display:grid;
+	grid-template-columns: 2fr 1fr;
+	overflow:auto;	
+}
+
+.grid2 article {
+	padding: 40px;
+	margin: 5px;
+	border: 1px grey solid;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.5em;
+	background-color:#F5BD93;
+}
+
+.grid2 aside {
+	padding: 10px;
+	margin: 5px;
+	border: 1px grey solid;
+	box-sizing: border-box;
+	background-color: #F5BD93;	
+}
+
+.grid2 img {
+	width: 100%;	
+}
+
+/* row with 4 boxes */ 
+
+.grid3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: white;
+}
+
+.grid3 section {
+	border: 1px grey solid;
+	height: 300px;
+	margin: 5px;
+	box-sizing: border-box;
+	/*padding: 5px;*/
+}
+
+.grid3 section img{ 
+	width: 100%;
+}
+
+.grid3 section h3, .grid3 section p {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+

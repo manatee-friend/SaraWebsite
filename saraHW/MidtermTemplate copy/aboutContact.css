@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.aboutSplash {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 450px;
+	background-image: url("imagesForTemplate/rosemary-1661525_1920.jpg");
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+}
+
+.contactSplash {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 450px;
+	background-image: url("imagesForTemplate/cakes-1283821_1920.jpg");
+	background-size: cover;
+	align-content: center;
+	text-align: center;
+}
+
+.aboutSplash h1, .contactSplash h1 {
+	font-size: 30pt;
+	color: #FFAA76;
+	padding-top: 10px;
+}
+
+.contactSplash h1 {
+	font-size: 30pt;
+	color: #FFAA76;
+	padding-bottom: 300px;
+}
+.videoRow { 
+	display: grid;
+	grid-template-columns: 1.25fr 1fr;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: white;
+	padding: 50px 0;
+}
+
+.videoRow article{
+	text-align: center;
+	margin-left: 10px;	
+}
+
+.videoRow article iframe{
+	width: 640px;
+	height: 360px;	
+}
+
+.videoRow aside {
+	text-align: left;
+	font-size: 120%;
+	margin: 0 20px; 	
+}
+
+.item1 {grid-area: item1; }
+.item2 {grid-area: item2; }
+.item3 {grid-area: item3; }
+.item4 {grid-area: item4; }
+.item5 {grid-area: item5; }
+
+.bioAreas {
+	display: grid; 
+	grid-template-areas: 
+		'item1 item2 item3'
+		'item1 item4 item5' ;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: #EAD496;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.bioAreas .text {
+	display: grid;
+	align-content: center;
+	text-align: center;
+	font-size: 150%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.bioAreas .profile {
+	padding: 10px;
+	overflow: auto;
+	margin: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+}
+
+
+.contactArea {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: #F5BD93;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+.contactArea .text {
+	display:grid;
+	align-content: center;
+	text-align: center;
+	font-size: 150%;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.contactArea form{ 
+	display: grid;
+	align-content: center;
+	text-align: left;
+	font-size: 120%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+input[type=text]{
+	width: 100%;
+	padding: 8px 10px;
+	margin: 4px 0;
+	box-sizing: border-box;
+	font-size: 11pt;
+}
+
+.messageBox{
+	height: 100px;
+}
+
+.submitBTN {
+	transition: backgriund-color 0.5s ease;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 120%;	
+}
+
+.submitBTN:hover {
+	background-color:#EAD496;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
